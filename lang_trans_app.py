@@ -44,6 +44,6 @@ if submit_button:
 
        # Display the results
         #translate = output[0]['translation_text'].replace('<n>', " ")
-        translate = output[0]['translation_text']['inputs']
+        translate = output[0]['translation_text']
         st.write(f"Your Input Text: **{text_inp}**")
-        st.write(f"**{translate}**")
+        st.write(f"Your Transalted Output is **{translate}**")
