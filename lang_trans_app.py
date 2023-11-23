@@ -43,7 +43,7 @@ if submit_button:
         output = query({"inputs": text_inp, })
 
        # Display the results
-        translate = output[0]['translation_text'].replace('<n>', " ")
+        #translate = output[0]['translation_text'].replace('<n>', " ")
 
         st.write(f"Your Input Text: **{text_inp}**")
-        st.write(f"**{translate}**")
+        st.write(f"**{output}**")
