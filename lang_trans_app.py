@@ -12,7 +12,7 @@ import json
 import requests
 import time
 
-st.title("Pragyan AI's Language Translation Model")
+st.title("sumalata's Language Translation Model")
 default_text = ''
 text_inp = st.text_input("InputText:", default_text)
 
